@@ -1,4 +1,4 @@
-class AddUuidToMessages < ActiveRecord::Migration
+class AddUuidToMessages < ActiveRecord::Migration[5.0]
   enable_extension 'uuid-ossp'
   
   def change

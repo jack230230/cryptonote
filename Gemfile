@@ -1,5 +1,4 @@
 source 'https://rubygems.org'
-ruby '2.3.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0', '>= 5.0.0.1'
@@ -39,5 +38,7 @@ gem 'coffee-rails', '~> 4.2', '>= 4.2.1'
 gem 'jquery-rails', '~> 4.1', '>= 4.1.1'
 
 gem 'zeroclipboard-rails', '~> 0.1.2'
+
+gem 'sqlite3', '~> 1.3'
 
 gem 'markdownjs-rails', '~> 1.0', '>= 1.0.2'
